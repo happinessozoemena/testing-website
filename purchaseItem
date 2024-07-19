@@ -107,3 +107,9 @@ public class Project4B {
         driver.findElement(By.xpath("//button[@id='submit']")).click();
         System.out.println("Congratulations! Your order has been confirmed!");
     }
+
+    //@AfterMethod
+    //public void quitBrowser() {
+        //driver.quit();
+       // System.out.println("Quit Browser");
+    //}
